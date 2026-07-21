@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <title>My Website</title>
+    </head >
+    <style>
+        #nav1{
+            background-color: #35b4bd;
+            padding: 10px;
+            text-align: center;
+            border-radius: 9px;
+        }
+        .product {
+            border: 1px solid #ccc;
+            border-radius: 9px;
+            padding: 10px;
+            margin-bottom:90px;
+            margin-top: 10px;
+            width: 200px;
+            display: inline-block;
+            
+        }
+        .nav-link {
+            color: white;
+            text-decoration:none;
+        }
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+        header{
+            background-color:rgb(176, 173, 37);
+            color:blue;
+            text-align:center;
+            padding:10px;
+            border-radius: 4px;
+        }
+        footer{
+            background-color:rgb(0, 0, 0);
+            color:blue;
+            text-align:center;
+            padding:10px 0;
+            border-radius: 4px;
+            position:fixed;
+            bottom:0;
+            width:100%;
+        }
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+
+        }
+        h1, h2, h3{
+            font-family:'Times New Roman', Times, serif;
+            font-size: 2em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        a{
+            color: #35b4bd;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        .product:nth-child(even){
+            background-color: rgb(194, 191, 191);
+
+        }
+        .product:nth-child(odd){
+            background-color: rgb(255, 255, 255);
+
+        }
+        .product:hover{
+            box-shadow: 10px 14px 10px rgb(8, 214, 225);
+        }
+        /* transformation and animation */
+        .product{
+            transition: transform 0.3s ease;
+        }
+        .product:hover{
+            transform: scale(1.05);
+        }
+    </style>
+    <body>
+        <header>
+            <h1>Welcome to My Website</h1>
+        </header>
+        <nav id="nav1">
+            <ul>
+                <li><a class="nav-link" href="about.html">About</a></li>
+                <li><a class="nav-link" href="products.html">Products</a></li>
+                <li><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <main>
+           <div class="product">
+            <img src="https://placehold.co/90x80" alt="LOGO">
+            <h2>Product 1</h2>
+            <p>1st Product</p>
+            <a href="#">Learn More</a>
+           </div> 
+           <div class="product">
+            <img src="https://placehold.co/90x80" alt="LOGO">
+            <h2>Product 2</h2>
+            <p>2nd Product</p>
+            <a href="#">Learn More</a>
+           </div> 
+           <div class="product">
+            <img src="https://placehold.co/90x80" alt="LOGO">
+            <h2>Product 3</h2>
+            <p>3rd Product</p>
+            <a href="#">Learn More</a>
+           </div> 
+           <div class="product">
+            <img src="https://placehold.co/90x80" alt="LOGO">
+            <h2>Product 4</h2>
+            <p>4th Product</p>
+            <a href="#">Learn More</a>
+           </div> 
+           <div class="product">
+            <img src="https://placehold.co/90x80" alt="LOGO">
+            <h2>Product 5</h2>
+            <p>5th Product</p>
+            <a href="#">Learn More</a>
+           </div> 
+          
+        </main>
+        <footer>
+            <p>&copy; 2026 My Website. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

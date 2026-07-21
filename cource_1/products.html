@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products</title>
+    <style>
+        ul{
+            float:left;
+        }
+        ol{
+            float:right;
+        }
+        th,td{
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+          }
+          table{
+            border-collapse: collapse;
+            width: 100%;
+          }
+          /* gradient background for table header */
+          header{
+            background: linear-gradient(to bottom, #16b79f, #3b1190);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        /* flex box */
+        body{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        main{
+            display: flex;
+        }
+        main table{
+            flex:2;
+        }
+        main ul{
+            flex:1;        
+        } 
+        main ol{
+            flex:1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Products</h1>
+    </header>
+    <main>
+        <p>Welcome to our products page!</p>
+        <ul type="square">
+            <li>Product 1: A high-quality item that meets your needs.</li>
+            <li>Product 2: An innovative solution for modern problems.</li>
+            <li>Product 3: A reliable choice for everyday use.</li>
+            <li>Product 4: A premium product with exceptional features.</li>
+            <li>Product 5: An affordable option without compromising quality.</li>
+        </ul>
+        <ol type="i">
+            <li><a href="#">Learn More about Product 1</a></li>
+            <li><a href="#">Learn More about Product 2</a></li>
+            <li><a href="#">Learn More about Product 3</a></li>
+            <li><a href="#">Learn More about Product 4</a></li>
+            <li><a href="#">Learn More about Product 5</a></li>
+        </ol>
+
+        <!-- tables -->
+         <table border="1">
+            <caption>Product Comparison</caption>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Features</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Product 1</td>
+                    <td>$19.99</td>
+                    <td>Feature 1, Feature 2</td>
+                </tr>
+                <tr>
+                    <td>Product 2</td>
+                    <td>$29.99</td>
+                    <td>Feature 3, Feature 4</td>
+                </tr>
+                <tr>
+                    <td>Product 3</td>
+                    <td>$39.99</td>
+                    <td>Feature 5, Feature 6</td>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; 2026 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
